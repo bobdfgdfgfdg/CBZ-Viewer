@@ -1,43 +1,45 @@
-📚 Ultimate CBZ Reader v7
-A lightweight, high-performance, and privacy-focused web-based comic book reader. Designed to handle .cbz files directly in your browser with a sleek, modern dark-mode interface.
+📖 Ultimate CBZ Reader v7
+The Lightweight, Private, and High-Performance Web Comic Viewer
+## ✨ Core Features
+🚀 Zero Latency
+No server-side processing. Your comics are rendered locally in your browser instantly.
 
-Launch Live Demo ---
+📂 Multi-File Support
+Open multiple .cbz files at once for a seamless reading session.
 
-✨ Features
-Zero Server Uploads: All processing happens locally in your browser using JavaScript. Your files never touch a server.
+🎨 Modern Dark UI
+A deep-charcoal aesthetic designed to make the artwork pop while reducing eye strain.
 
-Multiple Viewing Modes:
+📖 Smart Spread Detection
+Automatically detects wide images to maintain the intended 2-page layout.
 
-Single Page: Focused, one-page-at-a-time reading.
+## 🛠️ Reading Modes
+1-Page Mode
+Classic single-page view. Best for tablets and vertical monitors.
 
-Two-Page Spread: Smart detection of "double-page" spreads to maintain the intended layout.
+2-Page Mode
+Side-by-side viewing with LTR/RTL toggle support for Manga or Western comics.
 
-Continuous Scroll: Smooth, vertical scrolling for a "webtoon" style experience.
+Scroll Mode
+Continuous vertical feed. Perfect for Webtoons and infinite scrolling.
 
-Manga Ready: Toggle between LTR (Left-to-Right) and RTL (Right-to-Left) reading directions instantly.
+<sub>Note: Zoom levels can be adjusted from 50% to 200% via the control bar.</sub>
 
-Adaptive Zoom: Dynamic scaling (50% to 200%) to fit any screen size or resolution.
+## ⌨️ Keyboard Shortcuts
+Right Arrow: Next Page / Next Spread
 
-Keyboard Shortcuts:
+Left Arrow: Previous Page / Previous Spread
 
-Next Page: Right Arrow
+F Key: Toggle Fullscreen Mode
 
-Previous Page: Left Arrow
+## 🚀 Quick Setup
+Clone or download this repository.
 
-Fullscreen: F key
+Open index.html in your favorite web browser.
 
-🚀 Quick Start
-Download the index.html file.
+Click the 📂 Open CBZ button and start reading.
 
-Open the file in any modern web browser (Chrome, Firefox, Edge, Safari).
+## 🛠️ Technical Details
+This project is built using Vanilla JavaScript and JSZip. It requires no installation, no database, and works entirely offline once the page is loaded.
 
-Click "📂 Open CBZ" and select your comic files.
-
-Enjoy reading!
-
-🛠️ Built With
-HTML5 / CSS3: Modern flexbox layout and dark-mode UI.
-
-JavaScript (Vanilla): Core logic and image rendering.
-
-JSZip: For lightning-fast extraction of CBZ (ZIP) archives.
+<sub>Version 7.0.0 | Created for speed and privacy.</sub>
